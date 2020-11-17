@@ -13,9 +13,6 @@ export class LoginComponent {
   constructor(private c: AngularFireAuth) {
   }
 
-  ngOnInit(): void {
-  }
-
   login() {
     this.c.signInWithPopup(new firebase.auth.GoogleAuthProvider())
   }

@@ -11,5 +11,6 @@ ng g c admin/admin-products
 ng g c admin/admin-orders
 ng g c login
 
-
 ng add @ng-bootstrap/ng-bootstrap
+
+ng g s auth

@@ -3,6 +3,8 @@ import { Router } from '@angular/router';
 import { AuthService } from './auth.service';
 import { UserService } from './user.service';
 
+
+// storing user in firebase
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',

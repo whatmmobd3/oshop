@@ -15,3 +15,4 @@ ng add @ng-bootstrap/ng-bootstrap
 
 ng g s auth
 ng g s auth-guard
+ng g s user
